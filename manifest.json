@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Todo list",
+  "description": "This extension allows you to seamlessly create a TODO list with a real time highlight of the current hour so you can pace yourself on your tasks.",
+  "version": "1.0",
+
+  "chrome_url_overrides": {
+    "newtab": "background.html"
+  },
+  
+  "permissions": [
+    "management"
+  ]
+}
