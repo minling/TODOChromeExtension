@@ -7,8 +7,12 @@ html {
   background-size: cover;
 }
 
+.todos{
+  font-size: 500%;
+  text-align: center;
+}
 #datetime{
-  font-size: 400%;
+  font-size: 500%;
   text-align: center;
   font-family: Raleway, sans-serif;
 }

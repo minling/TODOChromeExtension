@@ -20,7 +20,15 @@ function time(){
   var ampm = hour < 12 ? "AM" : "PM";
   var currentHour = hour % 12;
   currentHour = currentHour? hour : 12;
-  minutes = minutes? "0"+minutes : minutes;
+    if (minutes == 0){
+      minutes = "0"+minutes;
+    }
+    else if(minutes < 10){
+      minutes = "0"+minutes;
+    }
+    else if(minutes > 9){
+      minutes = minutes;
+    }
 
   var timeNow = currentHour + ":"+ minutes + " "+ ampm;
   return timeNow
